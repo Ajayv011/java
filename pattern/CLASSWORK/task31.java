@@ -33,5 +33,6 @@ public class task31 {
       }
       System.out.println();
     }
+    aj.close();
   }
 }

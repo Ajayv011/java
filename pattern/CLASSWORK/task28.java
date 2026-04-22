@@ -31,6 +31,7 @@ public class task28 {
     // int kthLargest = arr[n - k];
 
     System.out.println(k + " largest of array elements is: " + arr[n - k]);
+    sc.close();
   }
 
 }

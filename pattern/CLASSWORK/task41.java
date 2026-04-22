@@ -3,9 +3,9 @@ import java.util.Scanner;
 class calculator {
   int a, b;
 
-  void sum() {
-    int c = a + b;
-    System.out.println("addititon of " + a + " and " + b + " is " + c);
+  int sum(int a, int b) {
+
+    return a + b;
   }
 
   void sub() {
@@ -29,19 +29,21 @@ class calculator {
   }
 }
 
-public class task40 {
+public class task41 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     calculator add = new calculator();
     System.out.print("enter 1st no.");
-    add.a = sc.nextInt();
+    int x = sc.nextInt();
     System.out.print("enter 2nd no.");
-    add.b = sc.nextInt();
-    add.sum();
-    add.sub();
-    add.mul();
-    add.div();
-    add.mod();
+    int y = sc.nextInt();
+    System.out.println("sum is " + add.sum(x, y));
+    // add.sub();
+
+    // add.mul();
+    // add.div();
+    // add.mod();
     sc.close();
   }
+
 }

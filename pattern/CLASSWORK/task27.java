@@ -38,5 +38,6 @@ public class task27 {
     }
     System.out.println("second largest of array elements is: " + secondMax);
     System.out.println("second minimum of array elements is: " + secondMin);
+    sc.close();
   }
 }

@@ -33,5 +33,6 @@ public class task23 {
     System.out.println("average of array elements is: " + average);
     System.out.println("multiplication of array elements is: " + mul);
     System.out.println("division of array elements is: " + div);
+    sc.close();
   }
 }

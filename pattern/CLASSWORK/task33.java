@@ -24,5 +24,6 @@ public class task33 {
       }
     }
     System.out.println("largest element in array is " + largest);
+    aj.close();
   }
 }

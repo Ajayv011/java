@@ -23,5 +23,6 @@ public class task36 {
       }
       System.out.println(sum);
     }
+    aj.close();
   }
 }

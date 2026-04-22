@@ -25,7 +25,7 @@ public class task39 {
     for (int i = 0; i < row; i++) {
       System.out.print(arr[i] + " ");
     }
-
+    aj.close();
   }
 
 }

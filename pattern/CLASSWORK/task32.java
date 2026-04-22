@@ -33,5 +33,6 @@ public class task32 {
       }
       System.out.println();
     }
+    aj.close();
   }
 }

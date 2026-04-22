@@ -24,5 +24,6 @@ public class task34 {
       }
     }
     System.out.println("smallest element in array is " + smallest);
+    aj.close();
   }
 }

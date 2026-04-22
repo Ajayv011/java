@@ -34,6 +34,7 @@ public class task30 {
     } else {
       System.out.println("element not found in array");
     }
+    aj.close();
   }
 
 }

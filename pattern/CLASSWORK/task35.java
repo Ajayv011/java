@@ -23,6 +23,7 @@ public class task35 {
     }
     double average = (double) sum / (row * col);
     System.out.println("average of elements in array is " + average);
+    aj.close();
   }
 
 }

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.util.Arrays;
+
 import java.lang.String;
 
 public class task29 {
@@ -34,6 +34,7 @@ public class task29 {
       System.out.println();
 
     }
+    aj.close();
 
   }
 

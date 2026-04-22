@@ -25,5 +25,6 @@ public class task24 {
     }
     System.out.println("maximum of array elements is: " + max);
     System.out.println("minimum of array elements is: " + min);
+    sc.close();
   }
 }
